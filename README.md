@@ -8,7 +8,7 @@ This repository contains the files and scripts to install macOS on the HP EliteD
 - CPU: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHZ
 - GPU: Integrated Intel® HD Graphics 530 (2 DisplayPorts + 1 VGA Port)
 - Product Name: HP EliteDesk 800 G2 DM 65W
-- BSystem BIOS: N21 Ver. 02.53 04/16/2021 and/or N21 Ver. 02.56 04/08/2022
+- System BIOS: N21 Ver. 02.53 04/16/2021 and/or N21 Ver. 02.56 04/08/2022
 - Memory: 8 GB Micron DDR4-2400
 - LAN: Intel® I219M Gigabit Network Connection LOM
 - Audio: Realtek ALC221 Audio (1 internal speaker + 1 front headphone + 1 front CITA port)
@@ -71,10 +71,9 @@ Press **F10** to save changes.
 ### Current OS
 - macOS Monterey 12.4
 
-### Bootloader
-- OpenCore 0.8.1
 
-### Kexts
+### Bootloader / Kexts
+- OpenCore v0.8.1
 - AppleALC
 - CPUFriend.kext
 - IntelMausi.kext
@@ -89,9 +88,9 @@ Press **F10** to save changes.
 ## How Install
 Follow the instructions at https://dortania.github.io/OpenCore-Install-Guide/installer-guide/ in order to create your macOS installation media and then add the provided EFI folder in this repository.
 
-## Fix iServices (iMessage, iCloud etc) and FileVault
+## iServices (iMessage, iCloud etc) and FileVault
 
-In order to have iMessage and other iServices you need to change a few keys in your `config.plist`:
+In order to have iServices you need to change a few keys in your `config.plist`:
 
 - ApECID
 - MLB
