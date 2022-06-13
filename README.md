@@ -86,6 +86,9 @@ Press **F10** to save changes.
 - VirtualSMC.kext
 - WhateverGreen.kext
 
+## How Install
+Follow the instructions at https://dortania.github.io/OpenCore-Install-Guide/installer-guide/ in order to create your macOS installation media and then add the provided EFI folder in this repository.
+
 ## Fix iServices (iMessage, iCloud etc) and FileVault
 
 In order to have iMessage and other iServices you need to change a few keys in your `config.plist`:
@@ -102,11 +105,11 @@ Please refer to the following guides to know what needs to be done:
 - https://dortania.github.io/OpenCore-Post-Install/universal/security/filevault.html
 
 
-## Known Issues:
+## Known Issues
 - VGA port - black screen
 - Can't change the DP port I'm using after the machine is ON - results in a black screen
 - Can't boot without a screen connected
-- Sleep doesn't wake the screen - black screen.
+- Sleep doesn't wake the screen - black screen
 - 4K Screen not working correctly
 - Sleep is not working (blackscreen when trying to wake it)
 - Front Headphone/Mic combo jack is not working, headphone port works, and the combo jack works as line-in
