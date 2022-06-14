@@ -123,5 +123,14 @@ Sleep not working due to issues with the Intel® HD530 iGPU. This GPU is known t
 - https://github.com/randyzhong/HP-EliteDesk-800-G2-DM-Hackintosh/issues/5
 - https://github.com/frostyviking/HP-EliteDesk-800-G2-OC/issues/2
 
-This is a cautionary tale from someone who spent way more time than anyone should, **sleep it's most likely never going to happen**. Feel free to prove me wrong! :)
+Although sleep doesn't work properly we can always turn off the display after a few minutes. This will work and wake up properly as long as we 1) tick the "Prevent computer from sleeping automatically when the display is off" checkbox under System Preferences and 2) issue the following commands:
 
+``````
+sudo pmset autopoweroff 0
+sudo pmset powernap 0
+sudo pmset standby 0
+sudo pmset proximitywake 0
+sudo pmset tcpkeepalive 0
+``````
+
+This is a cautionary tale from someone who spent way more time than anyone should, **sleep it's most likely never going to happen**. Feel free to prove me wrong! :)
