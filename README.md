@@ -134,3 +134,11 @@ sudo pmset tcpkeepalive 0
 ``````
 
 This is a cautionary tale from someone who spent way more time than anyone should, **sleep it's most likely never going to happen**. Feel free to prove me wrong! :)
+
+## About the RTC Fix
+
+My current RTC exclusion list is defined permanently in the key `rtc-blacklist` as described here https://dortania.github.io/OpenCore-Post-Install/misc/rtc.html. 
+
+The original value (unexpanded, stored in `boot-args`) was `rtcfx_exclude=58-89,b0-b7,d0-df`.
+
+Important note: it seems that every BIOS update needs retesting because it might require the exclusion of additional addresses.
