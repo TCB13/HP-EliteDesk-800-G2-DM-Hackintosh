@@ -4,7 +4,6 @@ This repository contains the files and scripts to install macOS on the HP EliteD
 ![HP EliteDesk 800 G2 Desktop Mini Business PC](https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c04876268.png)
 
 ## Hardware Specs
-### Basic info
 - CPU: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHZ
 - GPU: Integrated Intel® HD Graphics 530 (2 DisplayPorts + 1 VGA Port)
 - Product Name: HP EliteDesk 800 G2 DM 65W
@@ -108,9 +107,8 @@ Please refer to the following guides to know what needs to be done:
 - VGA port - black screen
 - Can't change the DP port I'm using after the machine is ON - results in a black screen
 - Can't boot without a screen connected
-- Sleep doesn't wake the screen - black screen
+- Sleep doesn't work. Black screen and system crash after trying to wake it up
 - 4K Screen not working correctly
-- Sleep is not working (blackscreen when trying to wake it)
 - Front Headphone/Mic combo jack is not working, headphone port works, and the combo jack works as line-in
 
 ## About Sleep
