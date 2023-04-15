@@ -72,7 +72,7 @@ Press **F10** to save changes.
 
 
 ### Bootloader / Kexts
-- OpenCore v0.8.1
+- OpenCore v0.9.1
 - AppleALC
 - CPUFriend.kext
 - IntelMausi.kext
