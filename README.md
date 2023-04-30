@@ -38,12 +38,10 @@ This repository contains the files and scripts to install macOS on the HP EliteD
 - Advanced -> Built-in Device Options
   - Enable **Embedded LAN Controller**
   - Disable **Wake on LAN**
-  - Disable **Dust Filter**
   - Video memory size **64MB**
   - Enable **M.2 USB / Bluetooth**
   - Enable **Audio Device**
   - Enable **Internal Speakers**
-  - Increase Idle Fan Speed (%), set at 0
 
 - Advanced -> Port Options
   - Everything **Enabled**
@@ -62,7 +60,7 @@ This repository contains the files and scripts to install macOS on the HP EliteD
   - Unique Sleep State Blink Rates **Disable** 
 
 - Advanced -> Remote Management Options
-  - I have not touched anything in here, running defaults AFAIK..
+  - Enable **ATM** (without it Intel's ME won't be available and macOS will crash under some circunstances)
   
 
 Press **F10** to save changes.
@@ -108,7 +106,6 @@ Please refer to the following guides to know what needs to be done:
 - Can't change the DP port I'm using after the machine is ON - results in a black screen
 - Can't boot without a screen connected
 - Sleep doesn't work. Black screen and system crash after trying to wake it up
-- 4K Screen not working correctly
 - Front Headphone/Mic combo jack is not working, headphone port works, and the combo jack works as line-in
 
 ## About Sleep
